@@ -26,6 +26,8 @@ rc6 = RecipeCard.new(u1,r5,'today',4)
 
 ri1 = RecipeIngredient.new(i1,r1)
 ri2 = RecipeIngredient.new(i2,r1)
+ri3 = RecipeIngredient.new(i2,r6)
+ri4 = RecipeIngredient.new(i2,r5)
 
 a = Allergen.new(u1,i2)
 a2= Allergen.new(u2,i2)

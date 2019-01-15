@@ -53,5 +53,16 @@ class User
   def most_recent
     recipes[-1]
   end
+  def safe_recipes
+    safeRec =[]
+    recipes.each do |r|
+      allergens.each do |a|
+        if r.ingredients.include?(a.ingredient)== false
+          safeRec << r
+        end
+      end
+    end
+    safeRec
+  end
 
 end #end of class

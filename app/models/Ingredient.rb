@@ -17,7 +17,6 @@ class Ingredient
     end
   end
   def self.most_common_allergen
-
     all_allergies= Allergen.all.map do |a|
         a.ingredient
         # binding.pry
