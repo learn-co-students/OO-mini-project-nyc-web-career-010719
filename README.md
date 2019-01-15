@@ -8,12 +8,12 @@ We've provided you with a console that you can use to test your code. To enter a
 
 ## Deliverables
 
-### `Recipe`
+<!-- ### `Recipe`
 Build the following methods on the Recipe class
 
 - `Recipe.all`
 should return all of the recipe instances
-- `Recipe.most_popular`
+`Recipe.most_popular`
 should return the recipe instance with the highest number of users (the recipe that has the most recipe cards)
 - `Recipe#users`
 should return the user instances who have recipe cards with this recipe
@@ -91,4 +91,4 @@ should return all of the Allergen instances
 ### `**Bonus**`
 - `User#safe_recipes`
 should return all recipes that do not contain ingredients the user is allergic to
-- What other methods might be useful to have?
+- What other methods might be useful to have? -->
